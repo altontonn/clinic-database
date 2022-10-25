@@ -1,7 +1,6 @@
 # curriculum-databases-projects-template
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+> This is vet clinic database that holds record for animals date of birth, neutered, weight and escape attempts.
 
 
 ## Getting Started
@@ -18,7 +17,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 👤 **Author1**
 
 - GitHub: [Newton Alumasa](https://github.com/altontonn)
-- Twitter: [Newton Alumasa](https://twitter.com/twitterhandle)
+- Twitter: [Newton Alumasa](https://twitter.com/AlumasaNewton)
 - LinkedIn: [Newton Alumasa](https://www.linkedin.com/in/newton-alumasa/)
 
 
@@ -26,7 +25,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/altontonn/clinic-database/issues).
 
 ## Show your support
 
@@ -34,10 +33,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/altontonn/clinic-database/blob/dev/LICENSE) licensed.
