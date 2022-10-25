@@ -1,6 +1,5 @@
 /*Queries that provide answers to the questions from all projects.*/
 SELECT * FROM ANIMALS WHERE name LIKE '%mon%';
-<img src="./mon.png">
 SELECT NAME FROM ANIMALS WHERE DATE_OF_BIRTH BETWEEN '2016-01-01' AND '2019-01-01';
 SELECT NAME FROM ANIMALS WHERE NEUTERED = 't' AND ESCAPE_ATTEMPTS < 3;
 SELECT DATE_OF_BIRTH FROM ANIMALS WHERE NAME IN ('Agumon', 'Pikachu');
