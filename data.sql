@@ -21,3 +21,8 @@ UPDATE ANIMALS SET OWNER_ID = 2 WHERE NAME IN ('Gabumon', 'Pikachu');
 UPDATE ANIMALS SET OWNER_ID = 3 WHERE NAME IN ('Devimon', 'Plantmon');
 UPDATE ANIMALS SET OWNER_ID = 4 WHERE NAME IN ('Charmander', 'Squirtle', 'Blossom');
 UPDATE ANIMALS SET OWNER_ID = 5 WHERE NAME IN ('Angemon', 'Boarmon');
+
+-- Day 4 --
+INSERT INTO VETS (NAME, AGE, DATE_OF_GRADUATION) VALUES('William Tatcher', 45, '2000-04-23');
+INSERT INTO VETS (NAME, AGE, DATE_OF_GRADUATION) VALUES('Maisy Smith', 26, '2019-01-17'), ('Stephanie Mendez', 64, '1981-05-04'), ('Jack Harkness', 38, '2008-06-08');
+INSERT INTO VISITS (ANIMALS_ID, VETS_ID, DATE_OF_VISIT) VALUES (1, 1, '2020-05-24'), (1, 3, '2020-07-22'), (2, 4, '2021-02-02'), (3, 2, '2020-01-05'), (3, 2, '2020-03-08'), (3, 2, '2020-05-14'), (4, 3, '2021-05-04'), (5, 4, '20201-02-24'), (6, 2, '2019-12-21'), (6, 1, '2021-08-10'), (6, 3, '2021-04-07'), (7, 3, '2019-09-29'), (8, 4, '2020-10-3'), (8, 4, '2020-11-04'), (9, 3, '2019-01-24'), (9, 3, '2019-05-15'), (9, 3, '2020-02-27'), (9, 3, '2020-08-03'), (10, 3, '2020-05-24'), (10, 1, '2021-01-11');
