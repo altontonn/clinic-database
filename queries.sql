@@ -52,3 +52,16 @@ SELECT vets.name as vet_name, animals.name AS first_animal_visited, date_of_visi
 SELECT animals.name AS animal_name, animals.weight_kg AS weight, animals.escape_attempts AS escape_attempts, vets.name AS name, vets.age AS age, date_of_visit FROM visits INNER JOIN animals ON animals.id = visits.animals_id INNER JOIN vets ON vets.id = visits.vets_id ORDER BY date_of_visit;
 SELECT species.name, COUNT(animals.species_id) FROM animals INNER JOIN visits ON animals.id = visits.animals_id INNER JOIN vets ON vets.id = visits.vets_id INNER JOIN species ON species.id = animals.species_id WHERE vets.name = 'Maisy Smith' GROUP BY species.name ORDER BY COUNT(animals.species_id);
 SELECT species.name, count(*) FROM visits INNER JOIN animals ON animals.id = visits.animals_id INNER JOIN species ON species.id = animals.species_id INNER JOIN vets ON vets.id = visits.vets_id WHERE vets_id = 2 GROUP BY species.name;
+
+-- Queries to check performance
+SELECT COUNT(*) FROM visits where animal_id = 4;
+SELECT * FROM visits where vet_id = 2;
+SELECT * FROM owners where email = 'owner_18327@mail.com';
+
+explain analyze SELECT COUNT(*) FROM visits where animal_id = 4;
+explain analyze SELECT * FROM visits where vet_id = 2;
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
+
+explain analyze SELECT COUNT(*) FROM visits where animal_id = 4;
+explain analyze SELECT * FROM visits where vet_id = 2;
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
